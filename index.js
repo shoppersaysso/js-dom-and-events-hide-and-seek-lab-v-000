@@ -2,12 +2,12 @@ function getFirstSelector(selector){
   return document.querySelector(selector)
 }
 
-function nestedTarget(nested, target){
-  return document.querySelector(nested).getAttribute(target)
+function nestedTarget(){
+  return document.querySelector('div.target')
 }
 
 function deepestChild() {
-  return 
+  return
 }
 
 function increaseRankBy(n) {
