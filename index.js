@@ -14,6 +14,7 @@ function deepestChild() {
     node = nextNode
     nextNode = node.children[0]
   }
+  return node
 }
 
 function increaseRankBy(n) {
